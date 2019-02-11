@@ -20,90 +20,49 @@
 
 ```sh
 # check development environment
-$ cmake --version
 
+# Проверка версии cmake
+$ cmake --version
 cmake version 3.14.0-rc1
 
+# Проверка версии curl
 $ curl --version
+curl 7.55.1 (Windows) libcurl/7.55.1 WinSSL
 
-#curl 7.55.1 (Windows) libcurl/7.55.1 WinSSL
-#Release-Date: [unreleased]
-#Protocols: dict file ftp ftps http https imap imaps pop3 pop3s smtp smtps telnet tftp
-#Features: AsynchDNS IPv6 Largefile SSPI Kerberos SPNEGO NTLM SSL
-
+# Проверка версии git
 $ git --version
+git version 2.1.4
 
-#git version 2.1.4
-
+# Проверка версии g++
 $ g++ --version
+g++.exe (x86_64-posix-seh-rev0, Built by MinGW-W64 project) 8.1.0
 
-#g++.exe (x86_64-posix-seh-rev0, Built by MinGW-W64 project) 8.1.0
-#Copyright (C) 2018 Free Software Foundation, Inc.
-#This is free software; see the source for copying conditions.  There is NO
-#warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-
+# Проверка версии hub
 $ hub --version
+hub version 2.8.4
 
-#git version (unavailable)
-#hub version 2.8.4
-#error running git version: exec: "git": executable file not found in %PATH%
-
+# Проверка версии make
 $ make --version
+GNU Make 4.1
+Built for i686-pc-cygwin
 
-#GNU Make 4.1
-#Built for i686-pc-cygwin
-#Copyright (C) 1988-2014 Free Software Foundation, Inc.
-#License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
-#This is free software: you are free to change and redistribute it.
-#There is NO WARRANTY, to the extent permitted by law.
-
-
+# Проверка версии subl
 $ subl --version
+Sublime Text Build 3176
 
-#Sublime Text Build 3176
-
+# Проверка версии tree
 $ tree --version
+Структура папок тома Windows
+Серийный номер тома: A8E8-5972
 
-#Структура папок тома Windows
-#Серийный номер тома: A8E8-5972
-
+# Проверка версии wget
 $ wget --version
+GNU Wget 1.16.3 built on cygwin.
++digest +https +ipv6 +iri +large-file +nls +ntlm +opie -psl +ssl/gnutls
 
-#GNU Wget 1.16.3 built on cygwin.
-
-#+digest +https +ipv6 +iri +large-file +nls +ntlm +opie -psl +ssl/gnutls
-
-#Wgetrc:
-    #/etc/wgetrc (system)
-#Locale:
-   # /usr/share/locale
-#Compile:
-   # gcc -DHAVE_CONFIG_H -DSYSTEM_WGETRC="/etc/wgetrc"
-   # -DLOCALEDIR="/usr/share/locale" -I.
-   # -I/usr/src/wget-1.16.3-1.i686/src/wget-1.16.3/src -I../lib
-   # -I/usr/src/wget-1.16.3-1.i686/src/wget-1.16.3/lib -DNDEBUG -ggdb
-   # -O2 -pipe -Wimplicit-function-declaration
-   # -fdebug-prefix-map=/usr/src/wget-1.16.3-1.i686/build=/usr/src/debug/wget-1.16.3-1
-   # -fdebug-prefix-map=/usr/src/wget-1.16.3-1.i686/src/wget-1.16.3=/usr/src/debug/wget-1.16.3-1
-# Link:
-   # gcc -DNDEBUG -ggdb -O2 -pipe -Wimplicit-function-declaration
-   # -fdebug-prefix-map=/usr/src/wget-1.16.3-1.i686/build=/usr/src/debug/wget-1.16.3-1
-   # -fdebug-prefix-map=/usr/src/wget-1.16.3-1.i686/src/wget-1.16.3=/usr/src/debug/wget-1.16.3-1
-   # -liconv -lintl -lpcre -luuid -lnettle -lgnutls -lz -lidn ftp-opie.o
-   # gnutls.o http-ntlm.o ../lib/libgnu.a
-
-#Copyright (C) 2014 Free Software Foundation, Inc.
-#License GPLv3+: GNU GPL version 3 or later
-#<http://www.gnu.org/licenses/gpl.html>.
-#This is free software: you are free to change and redistribute it.
-#There is NO WARRANTY, to the extent permitted by law.
-
-#Originally written by Hrvoje Niksic <hniksic@xemacs.org>.
-#Please send bug reports and questions to <bug-wget@gnu.org>.
-
+# Проверка версии openssl
 $ openssl version 
-
-#OpenSSL 1.0.2a 19 Mar 2015
+OpenSSL 1.0.2a 19 Mar 2015
 
 ```
 
