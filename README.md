@@ -16,6 +16,8 @@
 
 ## Tutorial
 
+Проверка окружения для разработки ('cmake', 'curl', 'git', 'g++', 'hub', 'make', 'subl', 'tree', 'wget', 'openssl' )
+
 ```sh
 # check development environment
 $ cmake --version
