@@ -11,9 +11,8 @@
 - [x] 5. Отправить зарегистрированный логин личным сообщением в **Slack**
 - [x] 6. Ознакомиться со ссылками учебного материала
 - [x] 7. Выполнить инструкцию учебного материала
-- [ ] 8. Сгенирировать **SSH** ключ и добавть его в список ключей для сервиса **GitHub**
-- [ ] 9. Сгенирировать **Personal Token** с правами **gist** и сохранить его в файл
-- [ ] A. Составить отчет и отправить ссылку личным сообщением в **Slack**
+- [x] 8. Сгенирировать **Personal Token** с правами **gist** и сохранить его в файл
+- [ ] 9. Составить отчет и отправить ссылку личным сообщением в **Slack**
 
 ## Tutorial
 
@@ -21,12 +20,22 @@
 # check development environment
 $ cmake --version
 $ curl --version
+
+#curl 7.55.1 (Windows) libcurl/7.55.1 WinSSL
+#Release-Date: [unreleased]
+#Protocols: dict file ftp ftps http https imap imaps pop3 pop3s smtp smtps telnet tftp
+#Features: AsynchDNS IPv6 Largefile SSPI Kerberos SPNEGO NTLM SSL
+
 $ git --version
 $ g++ --version
 $ hub --version
 $ make --version
 $ subl --version
 $ tree --version
+
+#Структура папок тома Windows
+#Серийный номер тома: A8E8-5972
+
 $ wget --version
 $ openssl version
 ```
